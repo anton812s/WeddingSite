@@ -84,7 +84,8 @@ img {
 }
 .banner {
 	color: black;
-	background: lightgrey;
+	background: white
+	;
 	padding: .5em;
 	margin-bottom: 0;
   display: flex;
