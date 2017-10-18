@@ -154,6 +154,7 @@ img {
 .explanation {
   width: 90%;
   text-align: center;
+	margin-top: -2em;
 }
 
  #small {
