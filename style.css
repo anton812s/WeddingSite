@@ -118,16 +118,11 @@ img {
   width:200px;
   height: auto;
 }
-.antler .left {
-	margin-right: -4em;
-}
-.antler .right {
-	margin-left: -4em;
-}
+
 .faces {
 	margin-left: -4em;
 	margin-right: -4em;
-	flex-grow: 1;
+	/*flex-grow: 1;*/
 	width:100px;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -154,7 +149,7 @@ img {
 .explanation {
   width: 90%;
   text-align: center;
-	margin-top: -2em;
+	margin-top: -.5em;
 }
 
  #small {
@@ -200,12 +195,12 @@ img {
     height: auto;
   }
 
-  /*.headline {
+  .headline {
     width: 30%;
     height: auto;
   }
 	.faces {
-		width: 10%;
+		width: 20%;
 		height: auto;
-	}*/
+	}
 }
