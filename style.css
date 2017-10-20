@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.6;
 	color: #3a3a3a;
 	margin: 0;
@@ -92,6 +92,7 @@ img {
   flex-direction: row;
   justify-content: flex-start;
 	align-items: center;
+	width: 95%
 }
 .col {
 	padding: 1em;
@@ -189,7 +190,7 @@ img {
     align-self: flex-start;
   }
   .stick {
-    width:30%;
+    width:40%;
     height: auto;
   }
   .antler {
@@ -209,5 +210,8 @@ img {
 		width:20%;
 	  height: auto;
 	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.explanation {
+		font-size: 2em;
 	}
 }
