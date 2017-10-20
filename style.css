@@ -114,14 +114,14 @@ img {
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
-	margin-top: 0;
+	margin-top: 2em;
 }
 .animsition {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
-	margin-top: 0;
+	margin-top: 2em;
 }
 .col {
 	padding: 1em;
