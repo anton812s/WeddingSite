@@ -104,6 +104,14 @@ img {
 	align-items: center;
 	width: 95%
 }
+
+.box {
+  display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
 .col {
 	padding: 1em;
 	background: #edf4f7;
