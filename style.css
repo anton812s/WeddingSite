@@ -26,11 +26,13 @@ p {
 	font-size: .95em;
 	margin: 0 0 1em 0;
 }
+
 h2,
 h3,
 a {
 	color: black;
 }
+
 h2,
 h3 {
 	margin: 0 0 .8em 0;
@@ -41,6 +43,8 @@ a {
 img {
 	max-width: 100%;
 }
+
+
 
 /* =================================
   Base Layout Styles
@@ -63,11 +67,16 @@ img {
 }
 .main-nav a {
 	font-size: .95em;
-	color: black;
+	color: #B1B9C1;
 	text-transform: uppercase;
 }
+
 .main-nav a:hover {
-	color: darkgrey;
+  color: #333;
+}
+
+.main-nav a.active {
+  color: #465058
 }
 
 /* ---- Layout Containers ---- */
@@ -83,6 +92,7 @@ img {
 	text-align: center;
 	font-size: .7em;
 }
+
 .banner {
 	color: black;
 	background: white;
@@ -90,7 +100,7 @@ img {
 	margin-bottom: 0;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
 	align-items: center;
 	width: 95%
 }
@@ -122,6 +132,7 @@ img {
 }
 
 .faces {
+	background-color: white;
 	margin-left: -4em;
 	margin-right: -4em;
 	z-index:1000;
@@ -130,6 +141,7 @@ img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .headline {
   line-height: .8em;
 	margin-left: -1em;
@@ -194,7 +206,7 @@ img {
     height: auto;
   }
   .antler {
-    width:50%;
+    width:30%;
     height: auto;
   }
 
@@ -203,8 +215,8 @@ img {
     height: auto;
   }
 	.faces {
-		margin-left: -4em;
-		margin-right: -4em;
+		margin-left: -5em;
+		margin-right: -5em;
 		z-index:1000;
 		/*flex-grow: 1;*/
 		width:20%;
@@ -213,5 +225,6 @@ img {
 	}
 	.explanation {
 		font-size: 2em;
+		margin-top: .1em;
 	}
 }
