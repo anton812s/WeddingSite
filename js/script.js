@@ -1,9 +1,9 @@
 $(document).ready(function() {
   $(".animsition").animsition({
-    inClass: 'fade-in',
-    outClass: 'fade-out',
+    inClass: 'fade-in-right-lg',
+    outClass: 'fade-out-left-lg',
     linkElement: 'header a',
-    inDuration: 1500,
+    inDuration: 1000,
     outDuration: 500
   });
 });
