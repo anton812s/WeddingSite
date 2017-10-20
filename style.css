@@ -47,15 +47,20 @@ img {
 .name {
 	font-size: 1.35em;
 	margin: 0;
+	padding: 0;
 }
 .main-nav {
-	margin-top: 5px;
+	margin-top: 0;
 }
-.name a,
+.name a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
 .main-nav a {
 	text-align: center;
 	display: block;
-	padding: 10px 15px;
+	padding: 10px 9px;
 }
 .main-nav a {
 	font-size: .95em;
@@ -151,12 +156,12 @@ img {
 	margin-left: -4em;
 	margin-right: -4em;
 	z-index:1000;
-	width:30%;
+	width:40%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main-face {
-	margin-bottom: 3em;
+	margin-bottom: 7em;
 }
 
 .headline {
