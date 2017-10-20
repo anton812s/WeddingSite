@@ -79,6 +79,12 @@ img {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border-bottom: 2px solid black;
+
+}
+.main-nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .banner,
 .main-footer {
