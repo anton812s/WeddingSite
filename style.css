@@ -24,7 +24,7 @@ ul {
 }
 p {
 	font-size: .95em;
-	margin: 0 0 1em 0;
+	margin: 0;
 }
 
 h2,
@@ -43,14 +43,6 @@ a {
 img {
 	max-width: 100%;
 }
-
-
-
-/* =================================
-  Base Layout Styles
-==================================== */
-
-/* ---- Navigation ---- */
 
 .name {
 	font-size: 1.35em;
@@ -124,11 +116,12 @@ img {
 	background: white;
 	padding: .5em 0;
 	margin-top: 0;
+	margin-bottom: 1em;
 }
 .stick-footer {
   background: white;
 	padding: 0;
-	margin-bottom: -1.5em;
+	margin-bottom: -1.1em;
   text-align: center;
 }
 .stick {
@@ -151,6 +144,9 @@ img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.main-face {
+	margin-bottom: 3em;
+}
 
 .headline {
   line-height: .8em;
@@ -161,11 +157,23 @@ img {
 	border-radius: 5px;
 }
 .button {
-	color: #fff;
+	margin-top: .5em;
+	padding: .5em;
+	color: black;
 	text-align: center;
-	padding: .625em 1.25em;
-	background: darkgrey;
+	background: white;
 	border-radius: .1em;
+	border: 3px solid black;
+	align-self: center;
+	transition-duration: .4s, .8s, .4s;
+  transition-property: background, border-radius, color;
+}
+.button:hover {
+  background: lightgray;
+}
+
+.button:active {
+  background: #a33830;
 }
 
 .row {
@@ -184,11 +192,19 @@ img {
 	margin-top: -.5em;
 }
 
+.explanation p {
+  font-size: 1.4em;
+}
+
 .paragraph {
-	margin-top: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	width: 90%;
 }
 
+.paragraph p {
+	font-size: 1em;
+}
  #small {
    font-size: .8em;
  }
@@ -221,10 +237,9 @@ img {
 	}
   .button {
     margin-top: auto;
-    align-self: flex-start;
   }
   .stick {
-    width:40%;
+    width:50%;
     height: auto;
   }
   .antler {
@@ -245,8 +260,18 @@ img {
 	  height: auto;
 	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
+	.main-face {
+		margin-bottom: 6em;
+	}
 	.explanation {
 		font-size: 2em;
 		margin-top: .1em;
+		margin-bottom: -1.7em;
+		padding: 0;
+	}
+	.paragraph {
+		margin-top: 2em;
+		margin-bottom: 2em;
+		width: 90%;
 	}
 }
