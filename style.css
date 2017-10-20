@@ -111,6 +111,7 @@ img {
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	margin-top: 2em;
 }
 
 .col {
