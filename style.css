@@ -57,12 +57,11 @@ img {
   display: block;
   padding: 10px 15px;
 }
+
 .main-nav a {
 	text-align: center;
 	display: block;
 	padding: 10px 9px;
-}
-.main-nav a {
 	font-size: .95em;
 	color: #B1B9C1;
 	text-transform: uppercase;
