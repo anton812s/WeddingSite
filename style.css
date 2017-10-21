@@ -73,7 +73,7 @@ img {
 }
 
 .main-header {
-	width: 90%;
+	width: 95%;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border-bottom: 2px solid black;
@@ -209,14 +209,10 @@ img {
 	margin-top: -.5em;
 }
 
-.explanation p {
-  font-size: 1.4em;
-}
-
 .paragraph {
 	margin-top: 1em;
 	margin-bottom: 1em;
-	width: 90%;
+	width: 95%;
 }
 
 .paragraph p {
@@ -224,7 +220,7 @@ img {
 }
 
 .date {
-	 font-size: 2em;
+	 font-size: 1.4em;
 	 margin-bottom: -.4em;
  }
 
@@ -238,7 +234,7 @@ img {
 		width: 90%;
 		margin: 0 auto;
 	}
-	
+
   .main-header,
 	.main-nav,
 	.row,
