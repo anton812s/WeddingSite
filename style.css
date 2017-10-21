@@ -93,9 +93,6 @@ img {
 }
 
 .banner {
-	color: black;
-	background: white;
-	padding: .5em;
 	margin-bottom: 0;
   display: flex;
   flex-direction: row;
@@ -241,9 +238,7 @@ img {
 		width: 90%;
 		margin: 0 auto;
 	}
-	.tagline {
-		font-size: 1.4em;
-	}
+	
   .main-header,
 	.main-nav,
 	.row,
