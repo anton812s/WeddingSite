@@ -40,7 +40,7 @@ img {
 }
 
 .name {
-	font-size: 1.05em;
+	font-size: 1.35em;
 	margin: 0;
 	padding: 0;
 }
@@ -244,12 +244,6 @@ img {
 	.main-header {
 		flex-direction: row;
 		justify-content: space-between;
-	}
-
-	.name {
-		font-size: 1.35em;
-		margin: 0;
-		padding: 0;
 	}
 
 	.col {
