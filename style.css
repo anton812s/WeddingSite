@@ -226,11 +226,7 @@ img {
 	font-size: 1em;
 }
 
-#small {
-   font-size: .8em;
-}
-
-#date {
+.date {
 	 font-size: 2em;
 	 margin-bottom: -.4em;
  }
