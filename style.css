@@ -1,10 +1,7 @@
-/* =================================
-  Base Element Styles
-==================================== */
-
 * {
 	box-sizing: border-box;
 }
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.6;
@@ -22,6 +19,7 @@ ul {
   padding: 0;
   list-style: none;
 }
+
 p {
 	font-size: .95em;
 	margin: 0;
@@ -37,9 +35,11 @@ h2,
 h3 {
 	margin: 0 0 .8em 0;
 }
+
 a {
 	text-decoration: none;
 }
+
 img {
 	max-width: 100%;
 }
@@ -49,9 +49,11 @@ img {
 	margin: 0;
 	padding: 0;
 }
+
 .main-nav {
 	margin-top: 0;
 }
+
 .name a {
   text-align: center;
   display: block;
@@ -75,8 +77,6 @@ img {
 	color: black;
 }
 
-/* ---- Layout Containers ---- */
-
 .main-header {
 	width: 90%;
 	padding-top: .5em;
@@ -84,11 +84,13 @@ img {
 	border-bottom: 2px solid black;
 
 }
+
 .main-nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 .banner,
 .main-footer {
 	text-align: center;
@@ -114,6 +116,7 @@ img {
 	align-items: center;
 	margin-top: 0;
 }
+
 .animsition {
 	display: flex;
 	flex-direction: column;
@@ -121,24 +124,28 @@ img {
 	align-items: center;
 	margin-top: 1.5em;
 }
+
 .col {
 	padding: 1em;
 	background: #edf4f7;
 	border-radius: .1em;
 	margin: 0 .5em .8em;
 }
+
 .main-footer {
 	background: white;
 	padding: .5em 0;
 	margin-top: 0;
 	margin-bottom: 1em;
 }
+
 .stick-footer {
   background: white;
 	padding: 0;
 	margin-bottom: -1.1em;
   text-align: center;
 }
+
 .stick {
   width:60%;
   height: auto;
@@ -158,6 +165,7 @@ img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .main-face {
 	margin-bottom: 7em;
 }
@@ -167,9 +175,11 @@ img {
 	margin-left: -1em;
 	margin-right: -1em;
 }
+
 .feat-img {
 	border-radius: 5px;
 }
+
 .button {
 	margin-top: .5em;
 	padding: .5em;
@@ -182,6 +192,7 @@ img {
 	transition-duration: .4s, .8s, .4s;
   transition-property: background, border-radius, color;
 }
+
 .button:hover {
   background: lightgray;
 }
@@ -219,13 +230,16 @@ img {
 .paragraph p {
 	font-size: 1em;
 }
- #small {
+
+#small {
    font-size: .8em;
- }
- #date {
+}
+
+#date {
 	 font-size: 2em;
 	 margin-bottom: -.4em;
  }
+
 /* =================================
   Media Queries
 ==================================== */
