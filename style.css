@@ -45,7 +45,7 @@ img {
 }
 
 .name {
-	font-size: 1.35em;
+	font-size: 1.05em;
 	margin: 0;
 	padding: 0;
 }
@@ -114,14 +114,14 @@ img {
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
-	margin-top: 2em;
+	margin-top: 0;
 }
 .animsition {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
 .col {
 	padding: 1em;
@@ -251,6 +251,13 @@ img {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
+	.name {
+		font-size: 1.35em;
+		margin: 0;
+		padding: 0;
+	}
+
 	.col {
 		flex: 1;
     flex-direction: column;
@@ -272,6 +279,9 @@ img {
     height: auto;
   }
 
+	.animsition {
+		margin-top: 2em;
+	}
 	.faces {
 		margin-left: -5em;
 		margin-right: -5em;
