@@ -58,7 +58,7 @@ img {
 .main-nav a {
 	text-align: center;
 	display: block;
-	padding: 10px 9px;
+	padding: 10px 5px;
 	font-size: .95em;
 	color: #B1B9C1;
 	text-transform: uppercase;
@@ -106,6 +106,7 @@ img {
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	justify-content: space-between;
 	margin-top: 0;
 }
 
@@ -141,6 +142,7 @@ img {
 .stick {
   width:60%;
   height: auto;
+	margin top: 1em;
 }
 
 .antler {
@@ -168,12 +170,7 @@ img {
 	margin-right: -1em;
 }
 
-.feat-img {
-	border-radius: 5px;
-}
-
 .button {
-	margin-top: .5em;
 	padding: .5em;
 	color: black;
 	text-align: center;
@@ -250,9 +247,7 @@ img {
 		flex: 1;
     flex-direction: column;
 	}
-  .button {
-    margin-top: auto;
-  }
+
   .stick {
     width:43%;
     height: auto;
