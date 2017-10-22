@@ -165,7 +165,7 @@ img {
 .paragraph {
 	margin-top: 1em;
 	margin-bottom: 1em;
-	width: 95%;
+	width: 90%;
 }
 
 .paragraph p {
@@ -183,13 +183,13 @@ img {
 
 @media (min-width: 600px) {
 	.main-header {
+		display: flex;
 		width: 90%;
 		margin: 0 auto;
 	}
 
-  .main-header,
-	.main-nav {
-		display: flex;
+	.main-nav a {
+		padding: 10px 15px;
 	}
 
 	.main-header {
