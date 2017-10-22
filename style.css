@@ -136,12 +136,6 @@ img {
 	margin-bottom: 7em;
 }
 
-.headline {
-  line-height: .8em;
-	margin-left: -1em;
-	margin-right: -1em;
-}
-
 .button {
 	padding: .5em;
 	color: black;
@@ -159,11 +153,7 @@ img {
 }
 
 .button:active {
-  background: #a33830;
-}
-
-.row {
-  flex: 1;
+  background: darkgrey;
 }
 
 .explanation {
@@ -192,32 +182,26 @@ img {
 ==================================== */
 
 @media (min-width: 600px) {
-	.main-header,
-	.row {
+	.main-header {
 		width: 90%;
 		margin: 0 auto;
 	}
 
   .main-header,
-	.main-nav,
-	.row,
-  .col {
+	.main-nav {
 		display: flex;
 	}
+
 	.main-header {
 		flex-direction: row;
 		justify-content: space-between;
-	}
-
-	.col {
-		flex: 1;
-    flex-direction: column;
 	}
 
   .stick {
     width:43%;
     height: auto;
   }
+
   .antler {
     width:28%;
     height: auto;
@@ -231,6 +215,7 @@ img {
 	.animsition {
 		margin-top: 2em;
 	}
+
 	.faces {
 		margin-left: -5em;
 		margin-right: -5em;
@@ -244,15 +229,16 @@ img {
 		margin-bottom: 6em;
 		width: 20%;
 	}
+
 	.explanation {
 		font-size: 1.9em;
 		margin-top: -.1em;
 		margin-bottom: 0;
 		padding: 0;
 	}
+
 	.paragraph {
 		margin-top: 2em;
 		margin-bottom: 2em;
-		width: 90%;
 	}
 }
