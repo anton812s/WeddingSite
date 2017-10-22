@@ -96,20 +96,12 @@ img {
 	width: 95%
 }
 
-.box {
-  display: flex;
-	flex-direction: column;
-	text-align: center;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: 0;
-}
-
 .animsition {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	justify-content: space-between;
 	margin-top: 1.5em;
 }
 
