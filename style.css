@@ -124,16 +124,16 @@ img {
 
 .faces {
 	background-color: white;
-	margin-left: -4em;
-	margin-right: -4em;
-	z-index:1000;
 	width:40%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-face {
+	margin-left: -4em;
+	margin-right: -4em;
 	margin-bottom: 7em;
+	z-index:1000;
 }
 
 .button {
@@ -217,15 +217,14 @@ img {
 	}
 
 	.faces {
-		margin-left: -5em;
-		margin-right: -5em;
-		z-index:1000;
 		width: 50%;
 	  height: auto;
-	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 	.main-face {
+		margin-left: -5em;
+		margin-right: -5em;
+		z-index:1000;
 		margin-bottom: 6em;
 		width: 20%;
 	}
