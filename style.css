@@ -179,7 +179,8 @@ img {
 
 .cat {
 	animation: roll 10s infinite linear;
-
+  width: 70%;
+	height: auto;
 }
 
 @keyframes roll {
