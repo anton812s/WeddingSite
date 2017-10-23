@@ -177,6 +177,23 @@ img {
 	 margin-bottom: -.4em;
  }
 
+.cat {
+	animation: roll 10s infinite linear;
+
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+img.pooks {
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /* =================================
   Media Queries
 ==================================== */
